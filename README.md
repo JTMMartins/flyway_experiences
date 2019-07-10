@@ -28,7 +28,7 @@ Now, inside the resources folder , you will find a special folder called db.migr
 - Step 8 - start the project on your IDE.
 - Step 9 - take attention to the logs.
 
-The V1.1 migration should be applied, and your data will still be there.
+The V1.1 migration should be applied, a phone field has been added to the **user_user** table and your data will still be there.
 
 - Step 10 - Change the propery value in ***spring.jpa.hibernate.ddl-auto*** FROM update TO **validate**, as from now on, we will always use flyway to all changes you want to apply to the database.
 
