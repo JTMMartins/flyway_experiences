@@ -33,3 +33,5 @@ The V1.1 migration should be applied, a phone field has been added to the **user
 - Step 10 - Change the propery value in ***spring.jpa.hibernate.ddl-auto*** FROM update TO **validate**, as from now on, we will always use flyway to all changes you want to apply to the database.
 
 Although this is probably not the best practice (as we should have a baseline migration with the DDL to create tables and fields), it presents an alternative, which might be useful in some situations.
+
+Important reading [flyway documentation](https://flywaydb.org/documentation/migrations) 
